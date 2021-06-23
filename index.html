@@ -1,0 +1,410 @@
+<!-- <style>
+  #myProgress {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+  }
+  </style>
+  <body onload="move()">
+  
+  <h1>JavaScript Progress Bar</h1>
+  
+  <div id="myProgress">
+    <div id="myBar">10%</div>
+  </div>
+  
+  <br>
+  
+  <script>
+  var i = 0;
+  function move() {
+    if (i == 0) {
+      i = 1;
+      var elem = document.getElementById("myBar");
+      var width = 10;
+      var id = setInterval(frame, 10);
+      function frame() {
+        if (width >= 70) {
+          clearInterval(id);
+          i = 0;
+        } else {
+          width++;
+          elem.style.width = width + "%";
+          elem.innerHTML = width  + "%";
+        }
+      }
+    }
+  }
+  </script>
+  
+  </body> -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Romany Mounir</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Google fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- Tweaks for older IEs-->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+
+<body>
+  <!-- navbar-->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container"><a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" width="70"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link link-scroll active" href="#hero">Home <span
+                  class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#expertise">Expertise</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Hero Section-->
+  <section class="hero bg-cover bg-center mt-5" id="hero" style="background: url(img/author.jpg)">
+    <div class="container py-5 my-5 index-forward">
+      <div class="row">
+        <div class="col-md-9 text-white">
+          <h2 class="h4 text-primary font-weight-normal mb-0">Hi, I am</h2>
+          <h1 class="text-uppercase text-xl mb-0">Romany <span class="text-primary">Mounir</span></h1>
+          <h2 class="h4 font-weight-normal mb-5">Front End Web Developer</h2>
+          <p class="text-shadow">Looking for a certified Software Engineer by Upwork!
+            You came to the right person!!
+            Design is a powerful tool of communication and influence.
+            It helps to deliver high-quality products and services, which leads to better user experiences and happier
+            customers.
+            I have experience of more than seven years in different fields of design.
+            I have Great knowledge of Adobe Creative Cloud software.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section-->
+  <section class="bg-light" id="about">
+    <div class="container">
+      <header class="mb-5">
+        <p class="font-weight-bold text-primary text-uppercase letter-spacing-3">Innovative solutions</p>
+        <h2 class="h3 lined">To boost your creative projects</h2>
+      </header>
+      <p class="lead text-muted">Much of my experience comes from working " Full-time, Part-time, Fixed term, Daily
+        hire, weekly hire, and as a freelance graphic designer.
+        I have a BSCS in Computer Science
+        I use Adobe Illustrator - Adobe Photoshop - Adobe InDesign - Inkscape for design
+        And Adobe After Effects - Adobe Premiere - Vegas Pro - Video Scribe - Filmora for videos
+        This job is more a passion, not just a job for me.
+        I have 1+ years of working & studying experience in the web development tracks</p>
+    </div>
+  </section>
+  <!-- Expertise Section        -->
+  <section id="expertise">
+    <div class="container">
+      <header class="mb-5 pb-4">
+        <p class="font-weight-bold text-primary text-uppercase letter-spacing-3">Superman would be jealous.</p>
+        <h2 class="text-uppercase lined">Expertise</h2>
+      </header>
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <h3 class="h4"><span class="text-primary mr-2">01</span>Graphic Design</h3>
+          <p class="text-muted text-small ml-4 pl-3">With more than 7 years of experience in the field I can do this
+            logo - business card - flyer - brochure - books - illustrations - coloring books and that for print and on
+            screen designs</p>
+        </div>
+        <div class="col-md-6 mb-5">
+          <h3 class="h4"><span class="text-primary mr-2">02</span>Video Editing</h3>
+          <p class="text-muted text-small ml-4 pl-3">With more than 3 years of experience in video editing I can edit
+            videos and making intro and outro videos do animations etc..</p>
+        </div>
+        <div class="col-md-6 mb-5 mb-md-0">
+          <h3 class="h4"><span class="text-primary mr-2">03</span>Front-End development</h3>
+          <p class="text-muted text-small ml-4 pl-3">With more than 1 year of experience in web design using angular and
+            react I've worked on different full web projects with amazing layouts I hope you like them </p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h4"><span class="text-primary mr-2">04</span>Cross-Platform Development</h3>
+          <p class="text-muted text-small ml-4 pl-3">With more than 1 year of experience in mobile application
+            development I can make applications that works on ios / android devices using Flutter</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Education Section-->
+  <section class="bg-light" id="education">
+    <div class="container">
+      <header class="mb-5 pb-4">
+        <p class="font-weight-bold text-primary text-uppercase letter-spacing-3">Lazy isn't in my vocabulary.</p>
+        <h2 class="text-uppercase lined">Education</h2>
+      </header>
+      <!--  Timeline -->
+      <ul class="timeline">
+        <!-- Timeline item-->
+        <li class="timeline-item ml-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row no-gutter">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <p class="font-weight-bold mb-2 text-primary text-small">Feb 2021 - June 2021</p>
+              <h2 class="h5 mb-0 text-uppercase">Front-End & Mobile development Diploma</h2>
+              <p class="text-small mb-0">Information Technology Institute (ITI)</p><span class="small text-muted">Egypt,
+                Qena</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">Studied how to make web applications using html, css, javascript, bootstrap using
+                framework like Angular and reactjs library and how to create mobile applications that works on
+                android/ios devices using react native and flutter and also unit testing</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ml-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row no-gutter">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <p class="font-weight-bold mb-2 text-primary text-small">Sept 2020 - Jan 2021</p>
+              <h2 class="h5 mb-0 text-uppercase">Software Engineering Diploma</h2>
+              <p class="text-small mb-0">Information Technology Institute (ITI)</p><span class="small text-muted">Egypt,
+                Sohag</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">learned how to create web applications with html,css and javascript also networking,
+                data structutre, algorithms and oberating systems also wordpress and php</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ml-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row no-gutter">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <p class="font-weight-bold mb-2 text-primary text-small">2014 - 2018 </p>
+              <h2 class="h5 mb-0 text-uppercase">Computer Science BSCS</h2>
+              <p class="text-small mb-0">Sohag University</p><span class="small text-muted">Egypt, Sohag</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">Studied Computer Science include artificial intelligence, computer systems and
+                networks, security, database systems, numerical analysis, programming languages, software engineering
+                and theory of computing.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Experience Section        -->
+  <section id="experience">
+    <div class="container">
+      <header class="mb-5 pb-4">
+        <p class="font-weight-bold text-primary text-uppercase letter-spacing-3">Yes. I've been around.</p>
+        <h2 class="text-uppercase lined">Experience</h2>
+      </header>
+      <!--  Timeline -->
+      <ul class="timeline">
+
+        <!-- Timeline item-->
+        <li class="timeline-item ml-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row no-gutter">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <p class="font-weight-bold mb-2 text-primary text-small">2020 – Present </p>
+              <h2 class="h5 mb-0 text-uppercase">Upwork</h2>
+              <p class="text-small mb-0">Freelance Full Stack & Cross-Platforms Developer, Graphic Designer, Video
+                Editor</p><span class="small text-muted">Egypt, Sohag</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">Making websites and mobile applications also graphic designs and videos</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ml-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row no-gutter">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <p class="font-weight-bold mb-2 text-primary text-small">2017 – 2020 </p>
+              <h2 class="h5 mb-0 text-uppercase">Upwork</h2>
+              <p class="text-small mb-0">Freelance Graphic Designer & Video Editor</p><span
+                class="small text-muted">Egypt, Sohag</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">Design business requirments like books and brandings flyers etc also making videos
+              </p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ml-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row no-gutter">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <p class="font-weight-bold mb-2 text-primary text-small">2017 – 2019 </p>
+              <h2 class="h5 mb-0 text-uppercase">SUPU Sohag University Programming Unit</h2>
+              <p class="text-small mb-0">Graphic Designer</p><span class="small text-muted">Egypt, Sohag</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">Participate in defining the design brief or setting up the design concept to
+                answer the brief for new multi-platform projects
+                Design ideas and basic concepts into fully worked out design solutions for new projects.
+                Research and prepare material in support of new design concepts and create working drawings,
+                storyboards and layouts.
+                Keep up to date with the international editorial and design standards and guidelines and work within
+                these with a high degree of independences.</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ml-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row no-gutter">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <p class="font-weight-bold mb-2 text-primary text-small">2014 - 2010 </p>
+              <h2 class="h5 mb-0 text-uppercase">SUIC Sohag Universty Information Center</h2>
+              <p class="text-small mb-0">Instructor</p><span class="small text-muted">Egypt, Sohag</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">On completion of my course, you will have the strong foundation needed to get
+                started in the world of graphic design, along with the skills needed to start working professionally
+                straight away.</p>
+            </div>
+          </div>
+        </li>
+        <!-- Timeline item-->
+        <li class="timeline-item ml-3 pb-4">
+          <div class="timeline-arrow"></div>
+          <div class="row no-gutter">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <p class="font-weight-bold mb-2 text-primary text-small">2012 - 2020 </p>
+              <h2 class="h5 mb-0 text-uppercase">Panorama Print</h2>
+              <p class="text-small mb-0">Senior Graphic Designer</p><span class="small text-muted">Egypt, Sohag</span>
+            </div>
+            <div class="col-lg-7">
+              <p class="text-muted">Design advertising campaigns and logo - business card - flyer - brochure - books -
+                illustrations - coloring books.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- Education Section        -->
+  <section class="bg-light" id="contact">
+    <div class="container">
+      <header class="mb-5 pb-4">
+        <p class="font-weight-bold text-primary text-uppercase letter-spacing-3">Call me, maybe.</p>
+        <h2 class="text-uppercase lined">Contact</h2>
+      </header>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="px-4 py-5 text-center contact-item shadow-sm"><i class="fas fa-map-marker-alt fa-2x mb-4"></i>
+            <h4 class="contact-item-title h5 text-uppercase">Location</h4>
+            <p class="text-small mb-0">Egypt, Sohag</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0"><a
+            class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor" href="tel:+201208641519"><i
+              class="fas fa-mobile fa-2x mb-4"></i>
+            <h4 class="contact-item-title h5 text-uppercase">Phone</h4>
+            <p class="text-small mb-0">+201208641519</p>
+          </a></div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0"><a
+            class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"
+            href="http://romanydesigns.website2.me/"><i class="fas fa-globe-americas fa-2x mb-4"></i>
+            <h4 class="contact-item-title h5 text-uppercase">Website</h4>
+            <p class="text-small mb-0">romanydesigns.website2.me</p>
+          </a></div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0"><a
+            class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"
+            href="mailto:romanygraphics@gmail.com"><i class="fas fa-envelope fa-2x mb-4"></i>
+            <h4 class="contact-item-title h5 text-uppercase">Email</h4>
+            <p class="text-small mb-0">romanygraphics@gmail.com</p>
+          </a></div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer-->
+  <footer>
+    <div class="container text-center section-padding-y">
+      <div class="row px-4">
+        <div class="col-lg-7 mx-auto">
+          <h2 class="text-uppercase mb-0">Romany Mounir</h2>
+          <h6 class="text-primary text-uppercase mb-0 letter-spacing-3">Front End Web Developer</h6>
+          <p class="text-muted my-4">Don't hesitate to reach out!</p>
+          <ul class="list-inline mb-0 d-flex align-content-center justify-content-center">
+            <li class="list-inline-item"><a 
+              href="https://www.upwork.com/freelancers/~011962c68bda64a46d"><svg class="social-link" xmlns="http://www.w3.org/2000/svg"
+                id="be549469-4243-42f4-9ad4-6171a9a5a2c6" data-name="Layer 1" viewBox="0 0 504 540.8">
+                <defs>
+                  <style>
+                    .a40b373e-d090-46bd-89f9-8f53e5f5b6f9:hover {
+                      fill: #fff;
+                    }
+
+                    .a40b373e-d090-46bd-89f9-8f53e5f5b6f9 {
+                      fill: #aaa;
+                    }
+                  </style>
+                </defs>
+                <path class="a40b373e-d090-46bd-89f9-8f53e5f5b6f9"
+                  d="M411.57,248.69c-3.77-28.08-25.87-51.72-53.48-57.2-29.14-5.78-56.38,6.73-70.95,32.95-3.42,6.15-5.87,12.84-8.92,19.62-.91-1.36-1.86-2.66-2.68-4a343.92,343.92,0,0,1-29.89-64.69c-.53-1.52-1.87-3.89-2.89-3.92-10.76-.28-21.53-.17-32.67-.17v6.58q0,39.75,0,79.5a68.9,68.9,0,0,1-.54,9,32.06,32.06,0,0,1-33.79,27.53c-18-1.26-30.47-14.55-30.6-33.09-.18-27.83,0-55.66,0-83.49v-5.85H110.6v6q0,40,0,80a123.68,123.68,0,0,0,.68,12.46c3.34,31.89,31.32,57.63,63.42,58.44,32.41.82,61.66-23,66.57-54.75,1.27-8.23,1.16-16.69,1.66-24.67,7.56,12,15.3,24.17,22.81,36.47.81,1.32.65,3.55.29,5.22-4.33,20.17-8.79,40.32-13.2,60.48-2.51,11.5-5,23-7.61,35.1,10.54,0,20.51-.18,30.46.09,3.79.1,5.07-1.17,5.82-4.82,4.55-22.31,9.39-44.56,14.21-67.17,1.35.58,2.43.94,3.41,1.48a97,97,0,0,0,34.44,11.14C377.55,332.76,417.49,292.83,411.57,248.69Zm-62.91,42.67c-2.43.49-4.92.7-6.26.88-14.44-.63-26-5.74-36.26-13.85a4.51,4.51,0,0,1-1.54-3.67c2.1-9.21,3.85-18.57,6.91-27.47,4-11.55,11.42-20.28,24.14-22.88,18.59-3.79,37,7.91,40.67,25.72C380,268.05,366.88,287.72,348.66,291.36Z" />
+              </svg></a></li>
+           
+            <li class="list-inline-item"><a class="social-link" href="https://www.facebook.com/Romany.Mounir.Labib"><i
+                  class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a class="social-link" href="https://github.com/Romany-Mounir"><i
+                  class="fab fa-github"></i></a></li>
+            <li class="list-inline-item"><a class="social-link"
+                href="https://www.linkedin.com/in/romany-mounir-b4ba17140/"><i class="fab fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a class="social-link" href="https://www.instagram.com/romany_mounir_96/"><i
+                  class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyrights px-4">
+      <div class="container py-4 border-top text-center">
+        <p class="mb-0 text-muted py-2">&copy; All rights reserved to <a
+            href="https://www.linkedin.com/in/romany-mounir-b4ba17140/"> Romany Mounir</a>. </p>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript files-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/front.js"></script>
+  <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</body>
+
+</html>
