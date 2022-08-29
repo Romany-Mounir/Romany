@@ -123,7 +123,7 @@ a.contact-item .contact-item-title, a.contact-item p {
 
 .hero::before {
   content: '';
-  width: 40%;
+  width: 30%;
   height: 100%;
   position: absolute;
   top: 0;
